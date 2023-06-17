@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.header{
+    background-color:darkcyan;
+    
+}
+.header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.header navbar-brand a{
+    font-family:cursive;
+    font-size: 40px;
+    color: darksalmon;
+    text-decoration: none;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li a{
+    text-align: none;
+    color: azure;
+    margin: 0 15px;
+    padding: 3px;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover{
+    color: darkred;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+.Logo{
+    background:  cornflowerblue;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.Logo .contenido-banner{
+    padding: 10px;
+    background-color: cornflowerblue;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+
+}
+
+.Logo .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid lightcyan;
+    display: block;
+    width: 90%;
+    margin: auto;
+    border-radius: 100%;
+}
+.Logo .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family:fantasy;
+    
+}
+.Logo .contenido-banner h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+.AcercaDeMi{
+    background-color:cadetblue;
+    color: rgb(0, 0, 0);
+    padding: 50px 20px;
+}
+.AcercaDeMi .contenido-seccion{
+    max-width: 500px;
+    margin: auto;
+}
+.AcercaDeMi h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.Porfolio{
+    background-color:darkcyan;
+    padding: 50px 20px;
+}
+.Porfolio h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.Porfolio img{
+    width: 30%;
+    padding: 20px;
+    display: grid;
+}
+
+.Contacto{
+    background-color:cadetblue;
+}
+
+.contenido-contacto {
+    width: 100%;
+    margin: auto;
+    padding: 10%;
+}
+.Contacto h1{
+    text-align: center;
+    margin-top: 1%;
+}
+.contenido{
+    background-color:  cornflowerblue;
+    text-align: center;
+    padding: 5%;
+}
+.copy{
+    background-color: mediumslateblue;
+    text-align: center;
+}
